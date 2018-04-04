@@ -10,7 +10,9 @@ const handleLoginClick = function(event) {
   createAccountApiCall();
 }; 
 
-const createAccountApiCall = function()
+const createAccountApiCall = function() {
+  //POST request to create account;
+};
 
 $(() => {
   $('.signup-form').on('submit', handleLoginClick);
