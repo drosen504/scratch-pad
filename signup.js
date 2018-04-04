@@ -2,7 +2,7 @@
 /* global $ */
 
 
-const handleLoginClick = function(event) {
+const handleSignupClick = function(event) {
   event.preventDefault();
   const enteredUsername = $('.username').val();
   const enteredPassword = $('.password').val();
@@ -15,5 +15,5 @@ const createAccountApiCall = function() {
 };
 
 $(() => {
-  $('.signup-form').on('submit', handleLoginClick);
+  $('.signup-form').on('submit', handleSignupClick);
 });
